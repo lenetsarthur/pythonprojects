@@ -1,2 +1,2 @@
 # pythonprojects
-Automation scripts ASW/Python
+Automation scripts AWS/Python
