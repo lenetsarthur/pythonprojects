@@ -14,8 +14,8 @@ now = datetime.datetime.utcnow()
 start = (now - datetime.timedelta(days=args.days)).strftime('%Y-%m-%d')
 end = now.strftime('%Y-%m-%d')
 
-cd = boto3.client('ce', aws_access_key_id='AKIAJMFYUSHZ7VJR2WWA',
-    aws_secret_access_key='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',
+cd = boto3.client('ce', aws_access_key_id='',
+    aws_secret_access_key='',
 )
 
 results = []
